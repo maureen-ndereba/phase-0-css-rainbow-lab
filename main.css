@@ -1,11 +1,124 @@
-div {
-  border: 20px solid #000; /* this is short hand for setting
-                            the border's width, its type, and color */
-  display: inline-block; /* a way of positioning elements */
-  min-width: 20em; /* the two min styles make the shape */
-  min-height: 25em; /* of the divs oblong*/
-  border-radius: 50%; /* this makes the normally square div round */
-  border-left-color: transparent; /* these remove the color from the left side */
-  border-right-color: transparent; /* the right side */
-  border-bottom-color: transparent; /* and the bottom of the circle */
+body {
+  font-family: Helvetica;
+}
+
+.rainbow-header {
+  background-image: linear-gradient(to left, #F94144, #F3722C, #F9C74F, #90BE6D, #57BED6, #9C71D4);
+  -ms-text-justify: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 8vw;
+}
+
+.rainbow-wrapper {
+  position: relative;
+  width: 90vw;
+  height: 45vw;
+  overflow: hidden;
+  margin: auto;
+}
+
+.rainbow-wrapper>div {
+  border-radius: 90vw 90vw 0 0;
+}
+
+.red {
+  background-color: #F94144;
+  width: 90vw;
+  height: 45vw;
+  position: absolute;
+  
+}
+
+.orange {
+  background-color: #F3722C;
+  width: 85vw;
+  height: 42.5vw;
+  position: absolute;
+  left: 2.5vw;
+  top: 2.5vw;
+  
+}
+
+.yellow {
+  background-color: #F9C74F;  
+  width: 80vw;
+  height: 40vw;
+  position: absolute;
+  left: 5vw;
+  top: 5vw;
+  border-top-color: #ff0;
+}
+
+.green {
+  background-color: #90BE6D;
+  width: 75vw;
+  height: 42.5vw;
+  position: absolute;
+  left: 7.5vw;
+  top: 7.5vw;
+  
+}
+
+.blue {
+  background-color: #57BED6;
+  width: 70vw;
+  height: 35vw;
+  position: absolute;
+  left: 10vw;
+  top: 10vw;
+  
+}
+
+.indigo {
+  background-color: indigo;
+  width: 65vw;
+  height: 32.5vw;
+  position: absolute;
+  left: 12.5vw;
+  top: 12.5vw;
+  
+}
+
+.violet {
+  background-color: violet;
+  width: 60vw;
+  height: 30vw;
+  position: absolute;
+  left: 15vw;
+  top: 15vw;
+  
+}
+
+
+
+.white {
+  background-color: #ffffff;
+  width: 55vw;
+  height: 27.5vw;
+  position: absolute;
+  left: 17.5vw;
+  top: 17.5vw;
+  border-top-color: #d300c9;
+}
+#red {
+  border-top-color: #f00;
+}
+#orange {
+  border-top-color: #ffa500;
+}
+#yellow {
+  border-top-color: #ff0;
+}
+#green {
+  border-top-color: #00bc3f;
+}
+#blue {
+  border-top-color: #06f;
+}
+#indigo {
+  border-top-color: #8a2be2;
+}
+#violet {
+  border-top-color: #d300c9
 }
